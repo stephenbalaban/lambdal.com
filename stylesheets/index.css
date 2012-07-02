@@ -1,0 +1,17 @@
+* {
+     font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+     font-weight: normal;
+}
+
+.center, .center img {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.legal {
+    font-size: 10px;
+    line-height: 10px;
+}

@@ -37,7 +37,19 @@
 
     <!-- Analytics 
     ======================================== -->
+    <script type="text/javascript">
 
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-33184253-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
 </head>
 <body>
 
@@ -50,13 +62,22 @@
 
 	<div class="container">
 		<div class="sixteen columns">
-            <h1>Lambda Labs</h1>
-			<hr />
+            <h1 class="center header">Lambda Labs</h1>
 		</div>
         <!-- begin preorder -->
         <div class="sixteen columns">
             <img src="/images/lambda-labs-logo.png" alt="Lambda Labs Logo" class="center" />
         </div>
+        <div class="sixteen columns center margintop">
+            <ul class="ulnavigation">
+                <li><a href="#" title="Lambda Labs Homepage">Home</a></li>
+                <li><a href="#" title="About Lambda Labs">About</a></li>
+                <li><a href="#" title="The Lambda Herders">Team</a></li>
+            </ul>
+        </div>
+        <footer class="sixteen columns center legal margintop">
+            &copy; 2012 Lambda Labs
+        </footer>
 	</div><!-- container -->
 
 <!-- End Document

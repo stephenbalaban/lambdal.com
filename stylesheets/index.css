@@ -37,3 +37,15 @@ h1, h2, h3, h4, h5, h6 {
 .ulnavigation li:last-child {
     margin-right: 0;
 }
+
+.cta {
+    color: #90F !important;
+}
+
+.cta:hover {
+    text-decoration: none;
+}
+
+.cta:visited {
+    color: #800080 !important;
+}
